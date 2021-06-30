@@ -29,9 +29,9 @@ fun cave(){
 
 
         fun vraag2() {
-            println("Waar leven de pinguin op de .........")
+            println("wat is ezel in het engels")
             var raadsels = readLine()
-            if (raadsels == "Zuidpool") {
+            if (raadsels == "donkey") {
                 println("je hebt 20 dmg gedaan")
                 enemy2.takeDamage(weapon2.damage)
                 boss()
@@ -45,9 +45,9 @@ fun cave(){
         fun vraag3() {
 
 
-            println("Vraag drie: wat is de latijnse benaming van ijsberen")
+            println("wat is boom in het engels ")
             var raadsels = readLine()
-            if (raadsels == "Ursus Maritimus") {
+            if (raadsels == "tree") {
                 println("je hebt 20 dmg gedaan")
                 enemy2.takeDamage(weapon2.damage)
                 boss()
@@ -61,10 +61,10 @@ fun cave(){
 
         fun vraag4() {
 
-            println("Engels naam voor ijsbeer")
+            println("wat is blad in het engels")
 
             var raadsels = readLine()
-            if (raadsels == "Polarbear") {
+            if (raadsels == "leafe") {
                 println("je hebt 20 dmg gedaan")
                 enemy2.takeDamage(weapon2.damage)
                 boss()
@@ -78,10 +78,10 @@ fun cave(){
 
         fun vraag5() {
 
-            println("Engelse naam voor zuidpool")
+            println("wat is kat in het engels")
 
             var raadsels = readLine()
-            if (raadsels == "South pole") {
+            if (raadsels == "cat") {
                 println("je hebt 20 dmg gedaan")
                 enemy2.takeDamage(weapon2.damage)
                 boss()
@@ -95,10 +95,10 @@ fun cave(){
 
         fun vraag6() {
 
-            println("Kan een Pinguin vliegen")
+            println("wat is hond in het engels")
 
             var raadsels = readLine()
-            if (raadsels == "Nee") {
+            if (raadsels == "dog") {
                 println("je hebt 20 dmg gedaan")
                 enemy2.takeDamage(weapon2.damage)
                 boss()
@@ -112,10 +112,10 @@ fun cave(){
 
         fun vraag7() {
 
-            println("Kunnen struisvogels vliegen?")
+            println("wat is 10 + 10")
 
             var raadsels = readLine()
-            if (raadsels == "Nee") {
+            if (raadsels == "twintig") {
                 println("je hebt 20 dmg gedaan")
                 enemy2.takeDamage(4)
                 boss()
