@@ -17,7 +17,7 @@ fun cave(){
             var raadsels = readLine()
             if (raadsels == "Noordpool") {
                 println("je hebt 20 dmg gedaan")
-                enemy2.takeDamage(weapon1.damage)
+                enemy2.takeDamage(weapon2.damage)
                 boss()
 
             } else {
@@ -33,7 +33,7 @@ fun cave(){
             var raadsels = readLine()
             if (raadsels == "Zuidpool") {
                 println("je hebt 20 dmg gedaan")
-                enemy2.takeDamage(weapon1.damage)
+                enemy2.takeDamage(weapon2.damage)
                 boss()
             } else {
                 println("je krijgt 25 dmg")
@@ -49,7 +49,7 @@ fun cave(){
             var raadsels = readLine()
             if (raadsels == "Ursus Maritimus") {
                 println("je hebt 20 dmg gedaan")
-                enemy2.takeDamage(weapon1.damage)
+                enemy2.takeDamage(weapon2.damage)
                 boss()
 
             } else {
@@ -66,7 +66,7 @@ fun cave(){
             var raadsels = readLine()
             if (raadsels == "Polarbear") {
                 println("je hebt 20 dmg gedaan")
-                enemy2.takeDamage(weapon1.damage)
+                enemy2.takeDamage(weapon2.damage)
                 boss()
 
             } else {
@@ -83,7 +83,7 @@ fun cave(){
             var raadsels = readLine()
             if (raadsels == "South pole") {
                 println("je hebt 20 dmg gedaan")
-                enemy2.takeDamage(weapon1.damage)
+                enemy2.takeDamage(weapon2.damage)
                 boss()
 
             } else {
@@ -100,7 +100,7 @@ fun cave(){
             var raadsels = readLine()
             if (raadsels == "Nee") {
                 println("je hebt 20 dmg gedaan")
-                enemy2.takeDamage(weapon1.damage)
+                enemy2.takeDamage(weapon2.damage)
                 boss()
 
             } else {
@@ -153,6 +153,7 @@ fun cave(){
                 eindroom()
             }
         }
+        bossfight()
     }
 
     fun keuzekant(){

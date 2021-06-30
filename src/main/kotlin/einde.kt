@@ -17,7 +17,7 @@ fun eindroom() {
             var raadsels = readLine()
             if (raadsels == "Noordpool") {
                 println("je hebt 20 dmg gedaan")
-                enemy2.takeDamage(weapon1.damage)
+                enemy1.takeDamage(weapon1.damage)
                 boss()
 
             } else {
@@ -33,7 +33,7 @@ fun eindroom() {
             var raadsels = readLine()
             if (raadsels == "Zuidpool") {
                 println("je hebt 20 dmg gedaan")
-                enemy2.takeDamage(weapon1.damage)
+                enemy1.takeDamage(weapon1.damage)
                 boss()
             } else {
                 println("je krijgt 25 dmg")
@@ -49,7 +49,7 @@ fun eindroom() {
             var raadsels = readLine()
             if (raadsels == "Ursus Maritimus") {
                 println("je hebt 20 dmg gedaan")
-                enemy2.takeDamage(weapon1.damage)
+                enemy1.takeDamage(weapon1.damage)
                 boss()
 
             } else {
@@ -66,7 +66,7 @@ fun eindroom() {
             var raadsels = readLine()
             if (raadsels == "Polarbear") {
                 println("je hebt 20 dmg gedaan")
-                enemy2.takeDamage(weapon1.damage)
+                enemy1.takeDamage(weapon1.damage)
                 boss()
 
             } else {
@@ -83,7 +83,7 @@ fun eindroom() {
             var raadsels = readLine()
             if (raadsels == "South pole") {
                 println("je hebt 20 dmg gedaan")
-                enemy2.takeDamage(weapon1.damage)
+                enemy1.takeDamage(weapon1.damage)
                 boss()
 
             } else {
@@ -100,7 +100,7 @@ fun eindroom() {
             var raadsels = readLine()
             if (raadsels == "Nee") {
                 println("je hebt 20 dmg gedaan")
-                enemy2.takeDamage(weapon1.damage)
+                enemy1.takeDamage(weapon1.damage)
                 boss()
 
             } else {
@@ -117,7 +117,7 @@ fun eindroom() {
             var raadsels = readLine()
             if (raadsels == "Nee") {
                 println("je hebt 20 dmg gedaan")
-                enemy2.takeDamage(4)
+                enemy1.takeDamage(4)
                 boss()
 
             } else {
@@ -129,24 +129,24 @@ fun eindroom() {
 
 
         fun bossfight() {
-            if (enemy2.hitpoints > 64) {
+            if (enemy1.hitpoints > 64) {
                 vraag1()
-            } else if (enemy2.hitpoints > 54) {
+            } else if (enemy1.hitpoints > 54) {
                 vraag2()
 
-            } else if (enemy2.hitpoints > 44) {
+            } else if (enemy1.hitpoints > 44) {
                 vraag3()
 
-            } else if (enemy2.hitpoints > 34) {
+            } else if (enemy1.hitpoints > 34) {
                 vraag4()
 
-            } else if (enemy2.hitpoints > 24) {
+            } else if (enemy1.hitpoints > 24) {
                 vraag5()
 
-            } else if (enemy2.hitpoints > 14) {
+            } else if (enemy1.hitpoints > 14) {
                 vraag6()
 
-            } else if (enemy2.hitpoints > 4) {
+            } else if (enemy1.hitpoints > 4) {
                 vraag7()
 
             } else {

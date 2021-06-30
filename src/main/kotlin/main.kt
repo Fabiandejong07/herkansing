@@ -13,7 +13,7 @@ fun main() {
 
         if (keuze == "noord") {
             println("je loopt noord de boomhut uit het bos in")
-            //room 2 wolf
+            //zuidroom 2 wolf
             bos()
         } else if (keuze == "oost") {
             println("je loopt naar het oosten je ziet wat gansen," +

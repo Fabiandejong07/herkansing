@@ -8,9 +8,9 @@ fun bos(){
         fun vraag1() {
 
 
-            println("Waar leven ijsberen op de ......")
+            println("hoe heten meerdere bananen in die bom ding.")
             var raadsels = readLine()
-            if (raadsels == "Noordpool") {
+            if (raadsels == "tros") {
                 println("je hebt 20 dmg gedaan")
                 enemy3.takeDamage(weapon3.damage)
                 boss()
@@ -24,9 +24,9 @@ fun bos(){
 
 
         fun vraag2() {
-            println("Waar leven de pinguin op de .........")
+            println("wat is banaan in het engels ")
             var raadsels = readLine()
-            if (raadsels == "Zuidpool") {
+            if (raadsels == "banana") {
                 println("je hebt 20 dmg gedaan")
                 enemy3.takeDamage(weapon3.damage)
                 boss()
@@ -40,9 +40,9 @@ fun bos(){
         fun vraag3() {
 
 
-            println("Vraag drie: wat is de latijnse benaming van ijsberen")
+            println("wat is ananas in het engels =")
             var raadsels = readLine()
-            if (raadsels == "Ursus Maritimus") {
+            if (raadsels == "pineapple") {
                 println("je hebt 20 dmg gedaan")
                 enemy3.takeDamage(weapon3.damage)
                 boss()
@@ -56,16 +56,16 @@ fun bos(){
 
         fun vraag4() {
 
-            println("Engels naam voor ijsbeer")
+            println("wat is raam in het engels")
 
             var raadsels = readLine()
-            if (raadsels == "Polarbear") {
+            if (raadsels == "window") {
                 println("je hebt 20 dmg gedaan")
                 enemy3.takeDamage(weapon3.damage)
                 boss()
 
             } else {
-                println("Engelsen naam voor zuidpool")
+                println("damge")
                 maurice.takeDamage(25)
                 vraag4()
             }
@@ -73,10 +73,10 @@ fun bos(){
 
         fun vraag5() {
 
-            println("Engelse naam voor zuidpool")
+            println("wat is aap in het engels ")
 
             var raadsels = readLine()
-            if (raadsels == "South pole") {
+            if (raadsels == "ape") {
                 println("je hebt 20 dmg gedaan")
                 enemy3.takeDamage(weapon3.damage)
                 boss()
@@ -148,7 +148,7 @@ fun bos(){
                 eindroom()
             }
         }
-
+      bossfight()
     }
 
     fun keuzekant() {
