@@ -1,5 +1,5 @@
 fun cave(){
-
+// spelers wapens
     var weapon2 = Weapons("speer", 20)
     var enemy2 = Enemy("beer", 10, 65, 85)
     var maurice = Player("maurice", 10, 100, 105)
@@ -7,7 +7,7 @@ fun cave(){
             "er zijn wat tunnels " )
 
 
-
+    //bossfight
     fun boss(){
 
         fun vraag1() {
@@ -155,7 +155,7 @@ fun cave(){
         }
         bossfight()
     }
-
+// room
     fun keuzekant(){
         println("[noord] [oost] [zuid] [west]")
         var keuze = readLine()

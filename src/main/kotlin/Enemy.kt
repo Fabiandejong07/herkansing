@@ -1,11 +1,11 @@
 class Enemy(val name: String, var lives: Int, var hitpoints: Int, var speed: Int) {
 
+//enemy class
 
 
 
 
-
-
+// damage systeem
     fun takeDamage(damage: Int) {
         val remainingHitpoints = hitpoints - damage
         if (remainingHitpoints > 0) {

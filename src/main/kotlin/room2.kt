@@ -3,8 +3,9 @@ fun bos(){
     var weapon3 = Weapons("boog", 20)
     var enemy3 = Enemy("wolf", 10, 65, 85)
     var maurice = Player("maurice", 10, 100, 105)
-
+//boss
     fun boss(){
+
         fun vraag1() {
 
 
@@ -116,7 +117,7 @@ fun bos(){
                 boss()
 
             } else {
-                println("je krijgt 25 dmg")
+                println("je krijgt 25 dmg.")
                 maurice.takeDamage(25)
                 vraag7()
             }
@@ -150,7 +151,7 @@ fun bos(){
         }
       bossfight()
     }
-
+    // room
     fun keuzekant() {
         println("[noord] [oost] [zuid] [west]")
         var keuze = readLine()

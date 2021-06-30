@@ -1,15 +1,17 @@
 fun eindroom() {
-
+// spelers wapens
         var weapon1 = Weapons("club", 20)
         var enemy1 = Enemy("gans", 10, 65, 85)
         var maurice = Player("maurice", 10, 100, 105)
 
     fun eind() {
-
+//einde
         print("eind")
     }
-
+//bossfight
     fun boss() {
+    print("je loopt terug naar de boomhut en komt je koba tegen hij wilt je eten stelen\n" +
+            "je gaat hem vechten")
         fun vraag1() {
 
 
@@ -115,7 +117,7 @@ fun eindroom() {
             println("wat is blad in het engel?")
 
             var raadsels = readLine()
-            if (raadsels == "leafe") {
+            if (raadsels == "leafee") {
                 println("je hebt 20 dmg gedaan")
                 enemy1.takeDamage(4)
                 boss()

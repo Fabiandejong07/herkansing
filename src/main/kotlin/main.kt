@@ -1,14 +1,15 @@
 fun main() {
-    println("je speelt als Maurice een gorilla die in een geexpirimenteerde pack leeft.\n" +
+    println(
+        //begin"je speelt als Maurice een gorilla die in een geexpirimenteerde pack leeft.\n" +
             "deze gorillas zijn slimmer, sterker en hebben betere stamina dan andere gorillas.")
 
     print("je loopt naar caeser je vraagt wat je kan doen de aapje ceaser \n" +
             "jij kan eten gaan halen maurice heel veel succes daarmee")
 
     println("je gaat eten halen")
-
+//begin room
     fun keuzekant() {
-        println("[noord] [oost] [zuid] [west]")
+        println("[noord] [oost] [zuid] [west].")
         var keuze = readLine()
 
         if (keuze == "noord") {
