@@ -13,9 +13,9 @@ fun eindroom() {
         fun vraag1() {
 
 
-            println("Waar leven ijsberen op de ......")
+            println("wat is de naam van de leider aap ")
             var raadsels = readLine()
-            if (raadsels == "Noordpool") {
+            if (raadsels == "caesar") {
                 println("je hebt 20 dmg gedaan")
                 enemy1.takeDamage(weapon1.damage)
                 boss()
@@ -29,9 +29,9 @@ fun eindroom() {
 
 
         fun vraag2() {
-            println("Waar leven de pinguin op de .........")
+            println("wat is jou naam")
             var raadsels = readLine()
-            if (raadsels == "Zuidpool") {
+            if (raadsels == "maurice") {
                 println("je hebt 20 dmg gedaan")
                 enemy1.takeDamage(weapon1.damage)
                 boss()
@@ -45,9 +45,9 @@ fun eindroom() {
         fun vraag3() {
 
 
-            println("Vraag drie: wat is de latijnse benaming van ijsberen")
+            println("welke taal is dit geprogrameerd")
             var raadsels = readLine()
-            if (raadsels == "Ursus Maritimus") {
+            if (raadsels == "kotlin") {
                 println("je hebt 20 dmg gedaan")
                 enemy1.takeDamage(weapon1.damage)
                 boss()
@@ -61,10 +61,10 @@ fun eindroom() {
 
         fun vraag4() {
 
-            println("Engels naam voor ijsbeer")
+            println("haar in het engels")
 
             var raadsels = readLine()
-            if (raadsels == "Polarbear") {
+            if (raadsels == "hair") {
                 println("je hebt 20 dmg gedaan")
                 enemy1.takeDamage(weapon1.damage)
                 boss()
@@ -78,7 +78,7 @@ fun eindroom() {
 
         fun vraag5() {
 
-            println("Engelse naam voor zuidpool")
+            println("koe in het engels")
 
             var raadsels = readLine()
             if (raadsels == "South pole") {
@@ -95,10 +95,10 @@ fun eindroom() {
 
         fun vraag6() {
 
-            println("Kan een Pinguin vliegen")
+            println("zijn er geiten in mc")
 
             var raadsels = readLine()
-            if (raadsels == "Nee") {
+            if (raadsels == "ja") {
                 println("je hebt 20 dmg gedaan")
                 enemy1.takeDamage(weapon1.damage)
                 boss()
@@ -112,10 +112,10 @@ fun eindroom() {
 
         fun vraag7() {
 
-            println("Kunnen struisvogels vliegen?")
+            println("wat is blad in het engel?")
 
             var raadsels = readLine()
-            if (raadsels == "Nee") {
+            if (raadsels == "leafe") {
                 println("je hebt 20 dmg gedaan")
                 enemy1.takeDamage(4)
                 boss()

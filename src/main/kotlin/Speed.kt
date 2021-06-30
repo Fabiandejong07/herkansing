@@ -8,7 +8,7 @@ class Speed(val name: String, var speed: Int) {
 
         }else{
 
-            println("$name lost speed.")
+           main()
         }
     }
 }
